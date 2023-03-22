@@ -17,7 +17,7 @@ public class Contact {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="ID")
-	private Integer contactId;
+	private int contactId;
 	
 	@Column(name="NAME")
 	private String contactName;

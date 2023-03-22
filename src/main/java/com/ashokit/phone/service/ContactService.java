@@ -10,7 +10,7 @@ public interface ContactService {
 
 	public List<Contact> getAllContacts( );
 
-	public Contact getContact (int cid);
+	public Contact getContact (int contactId);
 
-	public String deleteContact (int cid);
+	public String deleteContact (int contactId);
 }
